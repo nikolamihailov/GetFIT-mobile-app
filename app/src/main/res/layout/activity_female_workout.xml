@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FemaleWorkoutActivity"
+    android:background="@drawable/bordertwo">
+
+    <ImageView
+        android:id="@+id/legsAndButtImageView"
+        android:layout_width="237dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/flegs" />
+
+    <Button
+        android:id="@+id/legsAndButtButton"
+        android:layout_width="327dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="36dp"
+        android:background="#00FFFFFF"
+        android:text="legs and butt"
+        android:textAlignment="textEnd"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/femaleFullBodyImageView"
+        android:layout_width="179dp"
+        android:layout_height="169dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/legsAndButtButton"
+        app:srcCompat="@drawable/femalefullbody" />
+
+    <Button
+        android:id="@+id/femaleFullBodyButton"
+        android:layout_width="246dp"
+        android:layout_height="170dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="96dp"
+        android:background="#00FFFFFF"
+        android:text="            Full Body workout"
+        android:textAlignment="textEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/legsAndButtButton" />
+
+    <ImageView
+        android:id="@+id/fAbsImageView"
+        android:layout_width="167dp"
+        android:layout_height="161dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/femaleFullBodyImageView"
+        app:srcCompat="@drawable/femaleabs" />
+
+    <Button
+        android:id="@+id/fAbsButton"
+        android:layout_width="214dp"
+        android:layout_height="158dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="111dp"
+        android:background="#00FFFFFF"
+        android:text="Abs"
+        android:textAlignment="textEnd"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/femaleFullBodyImageView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

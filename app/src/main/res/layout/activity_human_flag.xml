@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HumanFlagActivity"
+    android:background="@drawable/bordertwo">
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youTubePlayerView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:autoPlay="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:showYouTubeButton="true"
+        app:videoId="R8YKQEUQG7U" />
+
+    <TextView
+        android:id="@+id/humanFlagTextView"
+        android:layout_width="185dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="24dp"
+        android:text="HUMAN FLAG"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/youTubePlayerView1" />
+
+    <TextView
+        android:id="@+id/humanFlagInfoTextView"
+        android:layout_width="325dp"
+        android:layout_height="465dp"
+        android:layout_marginTop="8dp"
+        android:text='The human flag or bar hold is a feat of strength where the body is parallel to the ground supported by a vertical bar. A straight line is formed using the arms and body. The trick requires the performer to have extensive upper body strength. The bottom arm is usually turned to grip the pole and is straight to "push" the body up. The top arm faces forward and grips on the pole. This arm "pulls" the body to maintain a parallel position to the ground. Easier variations include hooking one arm over the pole or by having the legs straddled, tucked or raised. '
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/humanFlagTextView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

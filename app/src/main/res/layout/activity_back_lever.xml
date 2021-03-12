@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BackLeverActivity"
+    android:background="@drawable/bordertwo">
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youTubePlayerView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:autoPlay="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:showYouTubeButton="true"
+        app:videoId="HXaG8mJmSnU" />
+
+    <TextView
+        android:id="@+id/backLeverTextView"
+        android:layout_width="185dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="24dp"
+        android:text="BACK LEVER"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.605"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/youTubePlayerView4" />
+
+    <TextView
+        android:id="@+id/backLeverInfoTextView"
+        android:layout_width="351dp"
+        android:layout_height="446dp"
+        android:layout_marginTop="16dp"
+        android:text="A back lever is a static hold performed on the rings or the pull-up bar. A back lever is rated as an 'A' value skill on the Code of Points, a scale from A to F, with F being the most difficult.  A back lever is performed by lowering from an inverted hang until the gymnast's body is parallel to the ground and facing towards the floor.  Performing a back lever requires a high degree of strength in the chest and shoulders, a lot of core tension must be generated to stay horizontal. "
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backLeverTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

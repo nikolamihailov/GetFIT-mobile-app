@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrontLeverActivity"
+    android:background="@drawable/bordertwo">
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youTubePlayerView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:autoPlay="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:showYouTubeButton="true"
+        app:videoId="AGhb8V8M758" />
+
+    <TextView
+        android:id="@+id/frontLeverTextView"
+        android:layout_width="185dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="24dp"
+        android:text="FRONT LEVER"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.596"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/youTubePlayerView3" />
+
+    <TextView
+        android:id="@+id/frontLeverInfoTextView"
+        android:layout_width="351dp"
+        android:layout_height="446dp"
+        android:layout_marginTop="8dp"
+        android:text="The front lever is a calisthenic move - a static hold normally performed on the still rings or the pull-up bar. A front lever is performed by lowering from an inverted hang until the body is completely horizontal and straight with the front of the body facing upwards. An accomplished gymnast may also pull directly into the horizontal position from a dead hang. Front levers require a high degree of back and core strength. There are many variations for the Front Lever. The easiest is the tuck front lever, then the advanced tuck variation (where the back is kept flat), then the single leg front lever, straddle front lever, and finally on to the full front lever."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frontLeverTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

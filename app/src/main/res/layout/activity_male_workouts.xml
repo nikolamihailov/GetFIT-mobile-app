@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MaleWorkoutsActivity"
+    android:background="@drawable/bordertwo">
+
+    <ImageView
+        android:id="@+id/chestImageView"
+        android:layout_width="148dp"
+        android:layout_height="131dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="21dp"
+        app:layout_constraintEnd_toStartOf="@+id/backImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/chestw" />
+
+    <Button
+        android:id="@+id/chestButton"
+        android:layout_width="145dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="24dp"
+        android:background="#00FFFFFF"
+        android:text="Chest"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/backButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/backImageView"
+        android:layout_width="145dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="37dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/chestImageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backw" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="139dp"
+        android:layout_height="139dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="37dp"
+        android:background="#00FFFFFF"
+        android:text="Back"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/chestImageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/absImageView"
+        android:layout_width="145dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="21dp"
+        app:layout_constraintEnd_toStartOf="@+id/armsImageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chestImageView"
+        app:srcCompat="@drawable/absw" />
+
+    <Button
+        android:id="@+id/absButton"
+        android:layout_width="140dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:background="#00FFFFFF"
+        android:text="Abs"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chestImageView" />
+
+    <ImageView
+        android:id="@+id/armsImageView"
+        android:layout_width="145dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="37dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backButton"
+        app:srcCompat="@drawable/armw" />
+
+    <Button
+        android:id="@+id/armsButton"
+        android:layout_width="144dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="36dp"
+        android:background="#00FFFFFF"
+        android:text="arms"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backImageView" />
+
+    <ImageView
+        android:id="@+id/fullBodyImageView"
+        android:layout_width="154dp"
+        android:layout_height="185dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="27dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/absImageView"
+        app:srcCompat="@drawable/fullbodyw" />
+
+    <Button
+        android:id="@+id/fullBodyButton"
+        android:layout_width="179dp"
+        android:layout_height="181dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="28dp"
+        android:background="#00FFFFFF"
+        android:text="Full body workout"
+        android:textAlignment="textEnd"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/absImageView" />
+
+    <ImageView
+        android:id="@+id/legsImageView"
+        android:layout_width="147dp"
+        android:layout_height="175dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/armsImageView"
+        app:srcCompat="@drawable/legsw" />
+
+    <Button
+        android:id="@+id/legsButton"
+        android:layout_width="145dp"
+        android:layout_height="173dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="17dp"
+        android:background="#00FFFFFF"
+        android:text="legs"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/armsImageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

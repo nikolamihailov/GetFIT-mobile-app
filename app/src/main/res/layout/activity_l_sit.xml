@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LSitActivity"
+    android:background="@drawable/bordertwo">
+
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youTubePlayerView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:autoPlay="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:showYouTubeButton="true"
+        app:videoId="IUZJoSP66HI" />
+
+    <TextView
+        android:id="@+id/lSitTextView"
+        android:layout_width="84dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="24dp"
+        android:text="L-SIT"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/youTubePlayerView5" />
+
+    <TextView
+        android:id="@+id/lSitInfoTextView"
+        android:layout_width="351dp"
+        android:layout_height="446dp"
+        android:layout_marginTop="8dp"
+        android:text="The L-sit is an acrobatic body position in which all body weight rests on the hands, with the torso held in a slightly forward-leaning orientation, with legs held horizontally so that each leg forms a nominal right-angle with the torso. The right-angle causes the body to have a notable &quot;L&quot; shape, hence the name &quot;L-sit&quot;. It requires significant abdominal strength. The performer's legs may be held together in front of the body or, in a variant called the straddled L-sit, the legs may be separated so that they straddle the arms.  "
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lSitTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

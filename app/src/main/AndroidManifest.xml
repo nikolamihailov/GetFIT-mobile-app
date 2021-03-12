@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="uni.fmi.bechelors.myapplicationy">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplicationY">
+        <activity android:name=".FemaleAbsActivity"></activity>
+        <activity android:name=".FemaleFullBodyActivity" />
+        <activity android:name=".LegsAndButtActivity" />
+        <activity android:name=".MaleWorkoutsActivity" />
+        <activity android:name=".LegsActivity" />
+        <activity android:name=".FullBodyActivity" />
+        <activity android:name=".ArmsActivity" />
+        <activity android:name=".AbsActivity" />
+        <activity android:name=".BackActivity" />
+        <activity android:name=".MaleWorkoutActivity" />
+        <activity android:name=".WorkoutsHomeActivity" />
+        <activity android:name=".ChestActivity" />
+        <activity android:name=".SixthActivity" />
+        <activity android:name=".WorkoutsActivity" />
+        <activity android:name=".FemaleWorkoutActivity" />
+        <activity android:name=".LSitActivity" />
+        <activity android:name=".BackLeverActivity" />
+        <activity android:name=".FrontLeverActivity" />
+        <activity android:name=".PlancheActivity" />
+        <activity android:name=".HumanFlagActivity" />
+        <activity android:name=".HandstandActivity" />
+        <activity android:name=".SkillsActivity" />
+        <activity android:name=".DiceActivity" />
+        <activity android:name=".AboutActivity" />
+        <activity
+            android:name=".AboutScrollingActivity"
+            android:label="@string/title_activity_about_scrolling"
+            android:theme="@style/Theme.MyApplicationY.NoActionBar" />
+        <activity android:name=".ReasonsForTrainingActivity" />
+        <activity android:name=".BmiActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HandstandActivity"
+    android:background="@drawable/bordertwo">
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youTubePlayerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:autoPlay="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:showYouTubeButton="true"
+        app:videoId="ctunmnwbbSI" />
+
+    <TextView
+        android:id="@+id/humanFlagTextView"
+        android:layout_width="185dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="32dp"
+        android:text="HANDSTAND"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/youTubePlayerView" />
+
+    <TextView
+        android:id="@+id/humanFlagInfoTextView"
+        android:layout_width="327dp"
+        android:layout_height="410dp"
+        android:layout_marginTop="8dp"
+        android:text="A handstand is the act of supporting the body in a stable, inverted vertical position by balancing on the hands. In a basic handstand, the body is held straight with arms and legs fully extended, with hands spaced approximately shoulder-width apart and the legs together. There are many variations of handstands, all of which require the performer to possess adequate balance and upper body strength.  Handstands are performed in many athletic activities, including acro dance, cheerleading, circus, yoga, calisthenics, and gymnastics. "
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/humanFlagTextView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

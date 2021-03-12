@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+
+    >
+
+
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_workout"
+            android:icon="@drawable/ic_baseline_calisthenics_center_69"
+            android:title="Workouts"
+            />
+        <item
+            android:id="@+id/nav_skills"
+            android:icon="@drawable/ic_baseline_skills_69"
+            android:title="Skills" />
+
+
+        <item
+            android:id="@+id/nav_BMI"
+            android:icon="@drawable/ic_baseline_calculate_69"
+            android:title="BMI" />
+        <item
+            android:id="@+id/nav_dice"
+            android:icon="@drawable/dice_7"
+            android:title="Dice Of Faith" />
+        <item
+            android:title=""
+            />
+              <item
+                  android:title=""
+                  />
+        <item
+
+            android:title=""
+            />
+        <item
+            android:title=""
+            />
+
+
+
+
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_baseline_info_69"
+            android:title="About" />
+    </group>
+
+    <item android:title="Exit">
+    <menu>
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_baseline_logout_69"
+            android:title="Logout" />
+    </menu>
+    </item>
+
+
+
+</menu>
